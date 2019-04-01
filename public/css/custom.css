@@ -1,0 +1,67 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+  font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+#primary-menu.style-ecommerce #top-account {
+    margin: 0;
+    border-left: 1px solid #EEE;
+    padding: 30px 30px;
+    transition: all .3s ease;
+}
+
+#primary-menu.style-ecommerce #top-account > a {
+    width: 20px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+}
+#header.sticky-header:not(.static-sticky) #top-account {
+    margin-top: 8px !important;
+    margin-bottom: 0 !important;
+    padding: 10px 10px;
+}
+
+.device-md #top-account,
+.device-sm #top-account,
+.device-xs #top-account { margin: 39px 0 32px !important; }
+
+@media (max-width: 575.98px) {
+
+	.container,
+	#header.full-header .container,
+	.container-fullwidth {
+		width: 100% !important;
+		padding-left: 40px !important;
+		padding-right: 40px !important;
+	}
+
+	#primary-menu-trigger { left: 20px; }
+
+	#top-cart { display:inline; }
+
+	#top-search a { right: 40px; }
+
+	#top-search form input { padding-right: 55px; }
+
+	#side-panel-trigger { right: 68px; }
+
+	#top-cart { right: 40px; }
+
+	#top-cart a.btn {
+		padding-left: 8px;
+		padding-right: 8px;
+    }
+    
+}
